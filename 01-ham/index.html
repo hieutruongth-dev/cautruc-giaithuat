@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="https://github.com/hohieuit/javascript-coban/blob/master/de%20bai/1_function.txt">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        var nodeKetQua = document.getElementById("result");
+        var HTML = '';
+        //Bài 1: Tổng của 2 số a và b
+        HTML += HTML + `
+        <p>Tổng 2 số là: ${tong(2,3)}</p>
+        <p>Hiệu 2 số là: ${hieu(5,3)}</p>
+        <p>Tích 2 số là: ${tich(10,5)}</p>
+        <p>Thương 2 số là: ${thuong(2,3)}</p>
+        <p>Bình Phương 1 số là: ${binhPhuong(3)}</p>
+        <p>So sánh 2 số nhập vào: ${soSanh2SoLon(5,9)}</p>
+        <p>So sánh 2 số nhập vào: ${soSanh2SoNho(6,3)}</p>
+        <p>Trung bình của 2 số: ${tinhTrungBinh(7,8)}</p>
+        <p>Chia lấy dư của 2 số: ${chiaLayDu(7,5)}</p>
+        <p>Kiểm tra chia hết giữa 2 số: ${chiaHet(4,15)}</p>
+        <p>${chuViChuNhat(2,3)}</p>
+        `;
+        nodeKetQua.innerHTML = HTML;
+    </script>
+</body>
+</html>
