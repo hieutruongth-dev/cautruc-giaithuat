@@ -12,20 +12,42 @@
     <script>
         var nodeKetQua = document.getElementById("result");
         var HTML = '';
-        //Bài 1: Tổng của 2 số a và b
         HTML += HTML + `
-        <p>Tổng 2 số là: ${tong(2,3)}</p>
-        <p>Hiệu 2 số là: ${hieu(5,3)}</p>
-        <p>Tích 2 số là: ${tich(10,5)}</p>
-        <p>Thương 2 số là: ${thuong(2,3)}</p>
-        <p>Bình Phương 1 số là: ${binhPhuong(3)}</p>
-        <p>So sánh 2 số nhập vào: ${soSanh2SoLon(5,9)}</p>
-        <p>So sánh 2 số nhập vào: ${soSanh2SoNho(6,3)}</p>
-        <p>Trung bình của 2 số: ${tinhTrungBinh(7,8)}</p>
-        <p>Chia lấy dư của 2 số: ${chiaLayDu(7,5)}</p>
-        <p>Kiểm tra chia hết giữa 2 số: ${chiaHet(4,15)}</p>
+        <p>${tong(2,3)}</p>
+        <p>${hieu(5,3)}</p>
+        <p>${tich(10,5)}</p>
+        <p>${thuong(2,3)}</p>
+        <p>${binhPhuong(3)}</p>
+        <p>${max(5,9)}</p>
+        <p>${min(6,3)}</p>
+        <p>${trungBinh(7,8)}</p>
+        <p>${chiaLayDu(5,7)}</p>
+        <p>${chiaHet(70,10)}</p>
         <p>${chuViChuNhat(2,3)}</p>
-        `;
+        <p>${dienTichChuNhat(5,4)}</p>
+        <p>${chuViTron(5)}</p>
+        <p>${dienTichTron(3)}</p>
+        <p>${noiChuoi(chuoi1,chuoi3)}</p>
+        <p>${noiChuoi(noiChuoi(noiChuoi(noiChuoi(chuoi1,chuoi2),chuoi3),chuoi4),chuoi5)}</p>
+        <p>${inHoa("hiếu")}</p>
+        <p>${inHoa(chuoiT)}</p>
+        <p>${coTonTai("hieu","hi")}</p>
+        <p>${doDai(chuoi1)}</p>
+        <p>${doDai(chuoi2)}</p>
+        <p>${doDai(chuoi3)}</p>
+        <p>${doDai(chuoi4)}</p>
+        <p>${doDai(chuoi5)}</p>
+        <p>${doDai(chuoiT)}</p>
+        <p>${catChuoi(chuoi1)}</p>
+        <p>${catChuoi(chuoi2)}</p>
+        <p>${catChuoi(chuoi3)}</p>
+        <p>${catChuoi(chuoi4)}</p>
+        <p>${catChuoi(chuoi5)}</p>
+        <p>${tonTai(chuoi1,chuoi5)}</p>
+        <p>${tonTai(chuoi2,chuoi5)}</p>
+        <p>${tonTai(chuoi3,chuoi5)}</p>
+        <p>${tonTai(chuoi4,chuoi5)}</p>
+        `
         nodeKetQua.innerHTML = HTML;
     </script>
 </body>
